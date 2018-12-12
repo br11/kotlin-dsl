@@ -13,14 +13,6 @@ fun main(args: Array<String>) {
             atScreen("Welcome") {
                 click(Button("Enter"))
 
-                click(Menu("Main"))
-
-                click(Menu("Main")) {
-                    click(MenuItem("Transfer", this)) {
-                        click(MenuItem("Today", this))
-                    }
-                }
-
                 click(Input("User")) {
                     type("myuser")
                 }
@@ -32,6 +24,15 @@ fun main(args: Array<String>) {
                 click(Button("Connect"))
             }
 
+            atScreen("My Relationship") {
+
+                click(Menu("Main")) {
+                    click(MenuItem("Transfer", this)) {
+                        click(MenuItem("Today", this))
+                    }
+                }
+
+            }
         }
     }
 
@@ -50,13 +51,6 @@ fun main(args: Array<String>) {
             atScreen("Welcome") {
                 clickButton("Enter")
 
-                clickMenu("Main")
-
-                clickMenu("Main") {
-                    click(MenuItem("Transfer", this)) {
-                        click(MenuItem("Today", this))
-                    }
-                }
 
                 clickInput("User") {
                     type("myuser")
@@ -67,6 +61,16 @@ fun main(args: Array<String>) {
                 }
 
                 clickButton("Connect")
+
+            }
+
+            atScreen("My Relationship") {
+
+                clickMenu("Main") {
+                    click(MenuItem("Transfer", this)) {
+                        click(MenuItem("Today", this))
+                    }
+                }
 
             }
 
