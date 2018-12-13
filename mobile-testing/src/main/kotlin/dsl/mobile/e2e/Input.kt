@@ -1,14 +1,18 @@
 package dsl.mobile.e2e
 
-class Input(override val name: String) : Element(name) {
+open class Input(override val name: String, var content: String = "") : Element(name) {
 
-    var value: String? = null
+    var innerText = Text("content", content)
 
-    fun type(text: String) {
-        value = text
+    fun type(content: String) {
+        innerText = Text("content", content)
     }
 
     fun clear() {
-        value = ""
+        innerText = Text("content", "")
+    }
+
+    open fun selectContent(action: Text.() -> String = { whole() }): String {
+        return innerText.action()
     }
 }

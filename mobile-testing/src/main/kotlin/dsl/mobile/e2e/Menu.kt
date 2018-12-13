@@ -8,12 +8,8 @@ open class Menu(override val name: String) : Element(name){
         val Right = Menu("Right")
     }
 
-    open fun click(item: MenuItem): MenuItem {
-        return click(item) {}
-    }
-
-    open fun click(item: MenuItem, init: MenuItem.() -> Unit): MenuItem {
-        item.init()
+    open fun click(item: MenuItem, action: MenuItem.() -> Unit={}): MenuItem {
+        item.action()
         return item
     }
 }

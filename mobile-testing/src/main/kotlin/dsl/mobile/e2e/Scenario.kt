@@ -1,8 +1,8 @@
 package dsl.mobile.e2e
 
-class Scenario {
+open class Scenario(override val name: String) : Element(name) {
 
-    fun openApp(appName: String, init: App.() -> Unit) {
+    fun openApp(app: App, action: App.() -> Unit) {
 
     }
 
@@ -11,9 +11,9 @@ class Scenario {
     }
 }
 
-fun build(configName: String, init: Scenario.() -> Unit): Scenario {
-    val scenario = Scenario();
-    scenario.init()
+fun build(name: String, action: Scenario.() -> Unit): Scenario {
+    val scenario = Scenario(name);
+    scenario.action()
 
     return scenario
 }

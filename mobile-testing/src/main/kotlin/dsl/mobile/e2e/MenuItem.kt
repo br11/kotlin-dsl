@@ -1,6 +1,6 @@
 package dsl.mobile.e2e
 
-class MenuItem (override var name: String, var parent: Menu) : Menu(name) {
+open class MenuItem (override var name: String, open var parent: Menu) : Menu(name) {
 
 }
 
