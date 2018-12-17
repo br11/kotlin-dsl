@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
+    compile(kotlin("reflect:1.2.71"))
     testCompile("junit", "junit", "4.12")
 }
 

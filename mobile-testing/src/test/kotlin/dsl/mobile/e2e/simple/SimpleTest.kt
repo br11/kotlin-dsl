@@ -1,8 +1,10 @@
 package dsl.mobile.e2e.simple
 
+import dsl.mobile.e2e.SimpleScript
+
 fun main(args: Array<String>) {
 
-    val scenario = build("ct-Login-001") {
+    val scenario = SimpleScript("ct-Login-001") {
 
         openApp("My Bank") {
 

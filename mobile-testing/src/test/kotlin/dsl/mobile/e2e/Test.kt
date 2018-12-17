@@ -1,45 +1,48 @@
 package dsl.mobile.e2e
 
+import dsl.mobile.e2e.contexts.*
+
 fun main(args: Array<String>) {
 
-    val scenario = build("ct-Login-001") {
-        openApp(App("My Bank")) {
+    val scenario = Script("ct-Login-001") {
 
-            atScreen(Screen("Avisos")) {
-                swipe(SwipeConfig.Left.twice())
-            }
+        openApp(App("My Bank", {
 
-            atScreen(Screen("Welcome")) {
-                find(Button("Enter"))
+            atScreen(Screen("Avisos", {
+                swipe(SwipeConfig.Left) { twice() }
+            }))
 
-                click(Button("Enter"))
+            atScreen(Screen("Welcome", {
+                find(Button("Enter", {}))
 
-                select(Text("User ID"))
+                click(Button("Enter", {}))
 
-                click(Input("User")) {
+                select(Text("User ID", {}))
+
+                click(Input("User", {
                     selectContent {
                         whole()
                     }
                     type("myuser")
-                }
+                }))
 
-                click(Input("Password")) {
+                click(Input("Password", {
                     type("123456")
-                }
+                }))
 
-                click(Button("Connect"))
-            }
+                click(Button("Connect", {}))
+            }))
 
-            atScreen(Screen("My Relationship")) {
+            atScreen(Screen("My Relationship", {
 
-                click(Menu("Main")) {
-                    click(MenuItem("Transfer", this)) {
-                        click(MenuItem("Today", this))
+                click(Menu("Main", {
+                    click(MenuItem("Transfer", this, {})) {
+                        click(MenuItem("Today", this, {}))
                     }
-                }
+                }))
 
-            }
-        }
+            }))
+        }))
     }
 
 
