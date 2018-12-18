@@ -1,8 +1,10 @@
 # kotlin-dsl
-Domain-specific Language in Kotlin
 
+## Mobile Automation Domain-specific Language in Kotlin
 
 ````kotlin
+package dsl.mobile.e2e.simple
+
 import dsl.mobile.e2e.SimpleScript
 
 fun main(args: Array<String>) {
@@ -12,7 +14,7 @@ fun main(args: Array<String>) {
         openApp("My Bank") {
 
             atScreen("Tips") {
-                swipeLeft() { twice() }
+                swipeLeft { twice() }
             }
 
             atScreen("Welcome") {
@@ -33,11 +35,15 @@ fun main(args: Array<String>) {
             }
 
             atScreen("My Relationship") {
-                clickMenu("Main") {
-                    clickItem("Transfer") {
-                        clickItem("Today")
-                    }
-                }
+                clickMenu("Main", "Transfer", "Today")
+            }
+
+            atScreen("Transfer") {
+                type { "100.00" into "Amount" }
+                type { "237" into "Bank" }
+                type { "10209.9" into "Account" }
+
+                clickAt button "Enter"
             }
 
         }
