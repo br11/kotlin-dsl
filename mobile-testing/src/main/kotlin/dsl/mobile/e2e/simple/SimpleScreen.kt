@@ -1,12 +1,12 @@
 package dsl.mobile.e2e.simple
 
 import dsl.mobile.e2e.SimpleMenu
-import dsl.mobile.e2e.actions.Click
 import dsl.mobile.e2e.contexts.*
 
 class SimpleScreen : Screen {
 
-    val clickAt: Click = Click(Button("_FAKE_", {}))
+    val clickAt = this
+    val swipe = this
 
     constructor(name: String, init: SimpleScreen.() -> Unit) : super(name, {}) {
         this.init()
@@ -70,10 +70,38 @@ class SimpleScreen : Screen {
         super.click(Input("", {}).input())
     }
 
-    infix fun Click.button(that: String): Button? {
+    infix fun SimpleScreen.button(that: String) {
         clickButton(that, {})
-        return null
     }
+
+    infix fun SimpleScreen.menu(that: String) {
+        clickMenu(that, {})
+    }
+
+    infix fun SimpleScreen.menus(that: Array<String>) {
+        that.forEach {
+            clickMenu(it, {})
+        }
+    }
+
+    infix fun SimpleScreen.input(that: String): Input {
+        return Input(that, {})
+    }
+
+    infix fun Input.type(that: String) {
+        this.type(that)
+        click(this)
+    }
+
+    infix fun Input.than(that: Input.() -> Unit) {
+        this.that()
+        click(this)
+    }
+
+    infix fun SimpleScreen.left(that: Int): Direction {
+        return Direction.Left
+    }
+
 }
 
 

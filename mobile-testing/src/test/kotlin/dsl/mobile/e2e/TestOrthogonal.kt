@@ -8,11 +8,11 @@ fun main(args: Array<String>) {
 
         openApp(App("My Bank", {
 
-            atScreen(Screen("Avisos", {
+            at(Screen("Avisos", {
                 swipe(SwipeConfig.Left) { twice() }
             }))
 
-            atScreen(Screen("Welcome", {
+            at(Screen("Welcome", {
                 find(Button("Enter", {}))
 
                 click(Button("Enter", {}))
@@ -33,7 +33,7 @@ fun main(args: Array<String>) {
                 click(Button("Connect", {}))
             }))
 
-            atScreen(Screen("My Relationship", {
+            at(Screen("My Relationship", {
 
                 click(Menu("Main", {
                     click(MenuItem("Transfer", this, {})) {
@@ -44,7 +44,6 @@ fun main(args: Array<String>) {
             }))
         }))
     }
-
 
     scenario.run()
 }

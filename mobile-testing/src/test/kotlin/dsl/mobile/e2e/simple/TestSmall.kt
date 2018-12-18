@@ -13,18 +13,13 @@ fun main(args: Array<String>) {
             }
 
             atScreen("Welcome") {
-                findButton("Enter")
 
                 clickButton("Enter")
-
-                selectText("User ID")
 
                 clickInput("User") {
                     selectContent { whole() }
                     type("myuser")
                 }
-
-                selectText("Password") { range(0, 2) }
 
                 clickInput("Password") { type("123456") }
 
@@ -41,7 +36,18 @@ fun main(args: Array<String>) {
 
             }
 
+            atScreen("Transfer") {
+
+                clickInput("Amount") { type("100.00") }
+                clickInput("Bank") { type("237") }
+                clickInput("Account") { type("0923797") }
+
+                clickButton("Send")
+            }
+
+
         }
+
     }
 
     scenario.run()

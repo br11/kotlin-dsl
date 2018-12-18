@@ -38,7 +38,7 @@ fun main(args: Array<String>) {
                 type { "237" into "Bank" }
                 type { "10209.9" into "Account" }
 
-                clickAt button "Enter"
+                clickButton("Send")
             }
 
         }
