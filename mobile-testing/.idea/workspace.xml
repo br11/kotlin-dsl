@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676f05a2-e6b5-4b55-89a0-d3aa363c16dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Script.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/SimpleScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Action.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Clear.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Click.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Find.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Open.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Select.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Swipe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Button.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Context.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/E2EMarker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Input.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Link.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Menu.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/MenuItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Screen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/SwipeConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Text.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTestShort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Button.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/E2EMarker.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Element.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Input.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Link.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Menu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/MenuItem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Scenario.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Screen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/SwipeConfig.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Text.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenuItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenuItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScenario.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,18 +56,20 @@
     <session id="-1024086490">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="3272" />
+          <entry key="kt" value="3299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="3272" />
+          <entry key="Kotlin" value="3299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,7 +77,7 @@
           <entry key="bat" value="1" />
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="1" />
-          <entry key="kt" value="446" />
+          <entry key="kt" value="448" />
           <entry key="kts" value="1" />
           <entry key="properties" value="1" />
         </counts>
@@ -128,7 +85,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="447" />
+          <entry key="Kotlin" value="449" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
         </counts>
@@ -137,24 +94,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Context.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Button.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/App.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -213,16 +152,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenu.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-202">
+              <caret line="4" selection-start-line="4" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTestShort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="331">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/Test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -606,7 +563,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/MenuItem.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Button.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/MenuItem.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Link.kt" />
@@ -625,7 +581,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Select.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Click.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions/Swipe.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScenario.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/elements/Scenario.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/Scenario.kt" />
@@ -657,6 +612,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenuItem.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScreen.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenu.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTestShort.kt" />
       </list>
     </option>
   </component>
@@ -678,8 +635,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -689,119 +644,42 @@
             </path>
             <path>
               <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="contexts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobile-testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="format&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545074437738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545139121066" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/elements" />
-      <recent name="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple" />
-    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="dsl.mobile.e2e.actions" />
       <recent name="dsl.mobile.e2e" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/actions" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple" />
-      <recent name="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/elements" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -880,18 +758,18 @@
       <option name="presentableId" value="Default" />
       <updated>1544553328813</updated>
       <workItem from="1544553331382" duration="16447000" />
-      <workItem from="1544648059300" duration="34379000" />
+      <workItem from="1544648059300" duration="36051000" />
+      <workItem from="1545138381918" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50826000" />
+    <option name="totallyTimeSpent" value="53192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -901,7 +779,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49284694" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49284694" weight="0.3290653" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -909,7 +787,7 @@
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49570817" weight="0.37644047" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Code Review" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5071531" side_tool="true" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5071531" side_tool="true" visible="true" weight="0.26248398" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -996,13 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1124,24 +995,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Input.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/E2EMarker.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Context.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Button.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -1159,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScreen.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenuItem.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1173,24 +1030,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Button.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/Input.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/contexts/E2EMarker.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/dsl/mobile/e2e/simple/SimpleMenu.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="-202">
+          <caret line="4" selection-start-line="4" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/dsl/mobile/e2e/simple/SimpleTestShort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>

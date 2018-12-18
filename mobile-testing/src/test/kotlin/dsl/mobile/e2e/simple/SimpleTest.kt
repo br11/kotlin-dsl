@@ -20,17 +20,13 @@ fun main(args: Array<String>) {
                 selectText("User ID")
 
                 clickInput("User") {
-                    selectContent {
-                        whole()
-                    }
+                    selectContent { whole() }
                     type("myuser")
                 }
 
                 selectText("Password") { range(0, 2) }
 
-                clickInput("Password") {
-                    type("123456")
-                }
+                clickInput("Password") { type("123456") }
 
                 clickButton("Connect")
             }

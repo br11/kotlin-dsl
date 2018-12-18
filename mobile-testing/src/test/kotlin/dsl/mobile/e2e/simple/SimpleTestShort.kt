@@ -1,8 +1,5 @@
-# kotlin-dsl
-Domain-specific Language in Kotlin
+package dsl.mobile.e2e.simple
 
-
-````kotlin
 import dsl.mobile.e2e.SimpleScript
 
 fun main(args: Array<String>) {
@@ -45,4 +42,3 @@ fun main(args: Array<String>) {
 
     scenario.run()
 }
-````
