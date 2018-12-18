@@ -10,7 +10,7 @@ open class Script : Context {
 
     }
 
-    fun openApp(app: App) {
+    fun open(app: App) {
         actions.add(Open(app))
     }
 }

@@ -11,7 +11,7 @@ class SimpleScript : Script {
     }
 
     fun openApp(appName: String, init: SimpleApp.() -> Unit) {
-        super.openApp(SimpleApp(appName, init))
+        super.open(SimpleApp(appName, init))
     }
 
     infix fun SimpleScript.app(that: String): SimpleApp {
@@ -20,6 +20,6 @@ class SimpleScript : Script {
 
     infix fun SimpleApp.than(that: SimpleApp.() -> Unit) {
         this.that()
-        super.openApp(this)
+        super.open(this)
     }
 }

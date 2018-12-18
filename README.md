@@ -117,7 +117,7 @@ fun main(args: Array<String>) {
 
     val scenario = Script("ct-Login-001") {
 
-        openApp(App("My Bank", {
+        open(App("My Bank", {
 
             at(Screen("Avisos", {
                 swipe(SwipeConfig.Left) { twice() }
